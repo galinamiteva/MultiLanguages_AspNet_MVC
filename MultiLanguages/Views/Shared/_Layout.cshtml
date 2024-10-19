@@ -57,9 +57,17 @@
                             {
                                 <span>English</span>
                             }
-                            else if ((Thread.CurrentThread.CurrentCulture.ToString() == "de"))
+                            else if ((Thread.CurrentThread.CurrentCulture.ToString() == "zh"))
                             {
                                 <span>Chinese (Simplified)</span>
+                            }
+                            else if ((Thread.CurrentThread.CurrentCulture.ToString() == "de"))
+                            {
+                                <span>China</span>
+                            }
+                            else if ((Thread.CurrentThread.CurrentCulture.ToString() == "fr"))
+                            {
+                                <span>French</span>
                             }
                             else
                             {
@@ -90,6 +98,24 @@
                                 <a class="radio-item" asp-controller="Home" asp-action="ChangeLanguage" asp-route-lang="de">
                                     <span>German</span>
                                     <img src="/image/German_flagg.png" alt="German flagg">
+                                </a>
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4" checked>
+                            <label class="form-check-label" for="flexRadioDefault4">
+                                <a class="radio-item" asp-controller="Home" asp-action="ChangeLanguage" asp-route-lang="fr">
+                                    <span>French</span>
+                                    <img src="/image/French_flagg.png" alt="French flagg">
+                                </a>
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault5" checked>
+                            <label class="form-check-label" for="flexRadioDefault5">
+                                <a class="radio-item" asp-controller="Home" asp-action="ChangeLanguage" asp-route-lang="zh">
+                                    <span>Chinese</span>
+                                    <img src="/image/China_flagg.png" alt="China flagg">
                                 </a>
                             </label>
                         </div>
