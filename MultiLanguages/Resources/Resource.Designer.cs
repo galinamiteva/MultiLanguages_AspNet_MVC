@@ -70,6 +70,24 @@ namespace MultiLanguages.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to building Web apps with ASP.NET Core.
+        /// </summary>
+        public static string BuildingWebBuildingWebApps {
+            get {
+                return ResourceManager.GetString("BuildingWebBuildingWebApps", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to building Web apps with ASP.NET Core.
+        /// </summary>
+        public static string BuildingWeBuildingWebApps {
+            get {
+                return ResourceManager.GetString("BuildingWeBuildingWebApps", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Category.
         /// </summary>
         public static string Category {
